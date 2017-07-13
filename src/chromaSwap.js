@@ -68,6 +68,8 @@ function chromaSwap(el) {
       ctx.canvas.height,
     );
 
+    'bananas';
+    
     const key = hexToRgb(imageCanvas.dataset.key);
     const tolerance = parseFloat(imageCanvas.dataset.tolerance);
     const [kh, hs, kl] = rgbToHsl(key.r, key.g, key.b);
