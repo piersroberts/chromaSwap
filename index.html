@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script src="dist/index.js"></script>
+    <title>chromaSwap demo</title>
+  </head>
+<body style="background-image:linear-gradient(90deg,#900000,#bd0000);background-size:cover">
+
+  <canvas id="swapMe"
+    style="width:100%"
+    data-src="images/r8.jpg"
+    data-key="#0f0"
+    data-tolerance="0.1">
+  </canvas>
+
+  <script>
+    chromaSwap.chromaSwap(document.querySelector('#swapMe'));
+  </script>
+</body>
+</html>
