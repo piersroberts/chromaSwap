@@ -1,6 +1,6 @@
 {
   "name": "chromaswap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transparent JPEGs right there in your web browser!",
   "repository": "piersroberts/chromaSwap",
   "main": "dist/index.js",
