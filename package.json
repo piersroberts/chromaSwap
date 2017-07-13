@@ -1,7 +1,8 @@
 {
   "name": "chromaswap",
   "version": "1.0.0",
-  "description": "",
+  "description": "Transparent JPEGs right there in your web browser!",
+  "repository": "piersroberts/chromaSwap",
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint src/*js",
